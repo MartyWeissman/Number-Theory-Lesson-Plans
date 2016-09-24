@@ -49,7 +49,7 @@ Ask three students to come up with distinct 2-digit prime numbers:  p,q,r (but d
 
 Discussion of Euclid, Liu Hui, Aryabhata.  Why history?
 
-A short discussion of the "mutual subtraction algorithm" in Han dynasty Chinese texts, for reducing fractions.  Carry out example of reducing 49/91 with this algorithm -- this was the example used in the *Nine Chapters*.
+A short discussion of the "mutual subtraction algorithm" in ancient Chinese texts, for reducing fractions.  Carry out example of reducing 49/91 with this algorithm -- this was the example used in the *Nine Chapters*.
 
 ## Solubility of LDE
 
