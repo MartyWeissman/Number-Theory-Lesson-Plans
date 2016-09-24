@@ -1,4 +1,8 @@
-# Lesson plan, Day 1, September 22 2016.
+# Day 1, September 22, 2016
+
+## The Euclidean Algorithm
+
+**Read before class:**  Skim Chapter 0. 
 
 ## Hook problem
 
@@ -50,3 +54,7 @@ A short discussion of the "mutual subtraction algorithm" in Han dynasty Chinese 
 ## Solubility of LDE
 
 Existence of solutions, as a theorem.
+
+## Conclusion
+
+We have used the Euclidean algorithm to demonstrate the existence of solutions to linear Diophantine equations.  Next time, we will find *all* solutions to LDEs and this will bring in the LCM.  Read Chapter 1 by next week.
