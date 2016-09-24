@@ -1,6 +1,8 @@
 # Day 1, September 22, 2016
 
-## The Euclidean Algorithm
+## The Euclidean Algorithm.
+
+Today, we give a motivated introduction to the Euclidean algorithm, following the first half of Chapter 1 of the text.
 
 **Read before class:**  Skim Chapter 0. 
 
