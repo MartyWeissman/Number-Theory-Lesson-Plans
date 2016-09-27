@@ -7,7 +7,7 @@
 
 ## Introduction
 
-Let's recall the Euclidean algorithm, and it's relation to solubility of linear Diophantine equations (LDEs).  For example, let's take the LDE 31x + 26y = 3.  Can this be solved?
+Let's recall the Euclidean algorithm, and it's relation to solubility of linear Diophantine equations (LDEs).  For example, let's take the LDE 33x + 26y = 3.  Can this be solved?
 
 Different kinds of questions:
 
