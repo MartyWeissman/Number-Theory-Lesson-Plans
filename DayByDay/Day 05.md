@@ -28,7 +28,8 @@ Euler's converse.
 * Compute \sigma_1(N) = (2^p - 1) \sigma_1(q).
 * Perfect: \sigma_1(N) = 2N = 2^p q.
 * So \sigma_1(q) = 2^p q / (2^p - 1) = q + (2^p - 1)^{-1} q.
-* So sum of divisors is sum of two divisors.  So q is prime.  
+* So sum of divisors is sum of two divisors.  So q is prime. 
+* So q = 2^p - 1, a prime.  So p is prime.
 
 
 ## Rational numbers.
