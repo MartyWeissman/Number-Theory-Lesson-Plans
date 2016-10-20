@@ -1,30 +1,32 @@
 # Day 9,  October 18, 2016.
-## Introduction to modular arithmetic
+## Algebra in modular arithmetic.  Introduction to dynamics.
 
 **Read before class:**  Chapter 5.  Beginning, to page 153.
 
 ## Introduction
 
-The innovation of Gauss -- congruence.  If a number $a$ divides the difference of the numbers $b$ and $c$, $b$ and $c$ are said to be congruent relative to $a$.  If not, $b$ and $c$ are noncongruent.  Today, we say $b$ and $c$ are congruent *modulo* $a$.
+In the world of numbers, mod m, there are only m numbers.  These numbers can be represented by 0,1,...,m-1, the "natural representatives".  "Sameness" is given by congruence mod m.  The operations in this modular world are addition, subtraction, and multiplication.  Familiar properties hold:  commutativity, associativity, identity (0 and 1), and the distributive law.  Such a world of numbers is called a "ring".  Other examples of rings include Z, Q, R, C.
 
-Congruence notation.  Equivalence relation properties.  Equivalence classes are called congruence classes (modulo $m$).
+Additive inverses exist, mod m.  Let's see them for natural representatives.
 
-For computer scientists, "mod" as an operation.  For mathematicians, "mod" as a context -- a world of numbers to live in.
+Once one has these properties, one can solve many equations using familiar methods.  You can always "do the same thing to both sides" of an equation/congruence, but remember that you can only "do" addition, subtraction, and multiplication.  NOT division, in general.  And remember that "doing things" to equations should be thought of as a deductive process... "*If* x+3 = 5, *then* x = 2."
 
-Translation problems.
-1.  3x = 1 mod 5.
-2.  x = 0 mod p.
-4.  xy = 0 mod p.  (Euclid's lemma, restated).
-5.  If x = 0 mod m, and m = 0 mod d, then x = 0 mod d.
+So one can solve x+7 = 5, mod 10.  But what if one tries to solve 2x = 4, mod 10?  
 
-Translation problems, the other way.  
-1.  10 divides x^2 - 1.
-2.  If x is a multiple of 2 and a multiple of 3, then x is a multiple of 6.
+## Multiplicative inverses
 
-Addition and multiplication.  The well-definedness theorem.
+Let's solve 13x = 1 mod 20.  
 
-Divisibility by 3 and 9 tests.
+Theorem:  Existence of multiplicative inverses.
+Corollary:  Working mod p, when p is prime.
+Solving equations, mod p.  Cancellation principle.
+Study:  Which numbers are their own additive inverse?  mult inverse?
+ROO principle.
 
-Additive inverses.  
+Introduction to dynamics.  Additive dynamics and cycle lengths.  Prime modulus.  Composite modulus.
+
+Multiplicative dynamics.  Bad example.  Restricting to Phi(n).
 
 ## Conclusion
+
+Next week -- modular dynamics to cryptography.  Read Chapter 6.
