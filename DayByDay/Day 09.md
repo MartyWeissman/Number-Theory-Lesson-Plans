@@ -1,4 +1,4 @@
-# Day 9,  October 18, 2016.
+# Day 9,  October 20, 2016.
 ## Algebra in modular arithmetic.  Introduction to dynamics.
 
 **Read before class:**  Chapter 5.  Beginning, to page 153.
