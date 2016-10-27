@@ -10,8 +10,9 @@ What is the hypothesis?  What is the conclusion?  Does it hold for non-prime p? 
 
 Using FLT as a primality test.  The example of 561.  Here's a Pingala table:
 
-exponent n: 560 280 140 70  35  34  17  16  8 4 2 1
-2^n mod 561:  1   1  67 166 263 412 359 460 256 16  4 2
+| exponent n  | 560 | 280 | 140 | 70  | 35  | 34  | 17  | 16  | 8   | 4  | 2 | 1 |
+|-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|----|---|---|
+| 2^n mod 561 | 1   | 1   | 67  | 166 | 263 | 412 | 359 | 460 | 256 | 16 | 4 | 2 |
 
 So FLT holds, but there is something else in the table that violates primality.  Namely, 67 * 67 = 1, mod 561.  This violates the (ROO) property of primes.
 
